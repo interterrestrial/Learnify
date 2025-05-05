@@ -4,14 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './Components/Navbar.jsx'
 import Navbar from './Components/Navbar.jsx'
-
+import Main from './Components/Main.jsx'
+ 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
         <Navbar/>
+        <Main/>
       </div>
       
     </>
