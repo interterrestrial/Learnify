@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.top-courses {
+    height: 56vh;
+    background-color: #D5EDF7;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading p:nth-child(1) {
+    font-family: 'Cardo';
+    font-size: 35px;
+    font-weight: bold;
+}
+.heading p:nth-child(2) {
+    font-family: 'Cardo';
+    font-size: 25px;
+    font-weight: roman;
+    color: #145EFE;
+}
+
+.course-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-cards a {
+    text-decoration: none;
+}

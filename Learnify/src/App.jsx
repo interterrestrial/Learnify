@@ -5,7 +5,7 @@ import './App.css'
 import './Components/Navbar.jsx'
 import Navbar from './Components/Navbar.jsx'
 import Main from './Components/Main.jsx'
- 
+import Top_Courses from './Components/Top-Courses.jsx'
 function App() {
 
   return (
@@ -13,6 +13,7 @@ function App() {
       <div>
         <Navbar/>
         <Main/>
+        <Top_Courses/>
       </div>
       
     </>
