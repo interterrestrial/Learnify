@@ -11,8 +11,12 @@ function Navbar() {
             <img src="././assets/Filter Logo.png" alt="Filter" />
         </div>
         <div className="login-signup">
-            <button className='Login'>Sign In</button>
-            <button className='Signup'>Sign Up</button>
+            <button className='Login'>
+              <Link to="/signin">Sign In</Link>
+            </button>
+            <button className='Signup'>
+              <Link to="/signup">Sign Up</Link>
+            </button>
         </div>
     </div>
   )
